@@ -1,0 +1,129 @@
+*{
+    padding: 0 !important;
+    margin: 0 !important;
+}
+.fonts{
+font-family: 'Lobster', cursive;
+    font-weight: bolder;
+}
+.nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+ul{
+    display: flex;
+}
+li{
+    list-style: none;
+    margin-left: 30px !important;
+    padding: 10px  0  10px 0 !important;
+    font-weight: bold;
+    font-size: 15px !important;
+
+}
+.navItem{
+    margin-top: 30px !important;
+    box-shadow: -2px -1px 25px -6px rgba(0,0,0,0.54);
+    width: 100%;
+}li a{
+    text-decoration: none;
+    color: black;
+    border: 1px solid black;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    transition: 0.3s;
+    text-transform: capitalize;
+}
+ul li a:hover{
+    color: orange;
+    margin-left: 10px !important;
+}
+ul li a:active{
+    background-color: black;
+    padding: 5px !important;
+    border-radius: 10px;
+    color: white;
+}
+.background{
+    background: url(./pic9-copy.webp);
+}
+.back{
+    margin-top: 50px !important;
+    padding: 170px 0 170px 0 !important;
+}
+.btn2{
+    background-color: orangered !important;
+    font-weight: bold !important;
+    font-size: medium !important;
+    padding: 5px 15px 5px 15px !important;
+    color: white !important;
+    border-radius: 10px !important;
+    margin-top: 5px !important;
+    text-transform: capitalize !important;
+    transition: 0.3s !important;
+}
+.btn2:hover{
+    background-color: rgb(154, 44, 4) !important;
+}
+.redHot{
+    color: orangered;
+  
+}
+
+.headerFont{
+
+    font-family: 'Acme', sans-serif;
+    font-family: 'Dancing Script', cursive;
+    font-family: 'Lobster', cursive;
+}
+.cards{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.card-body{
+    margin-top: 10px !important;
+    font-size: 15px !important;
+    font-weight: bold;
+}
+.card{
+    transition: 0.3s !important;
+}
+.card:hover{
+    box-shadow: -1px 1px 21px 0px rgba(0,0,0,0.75) !important;
+    margin-top: 10px !important;
+}
+.search{
+    outline: none;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-color: black;
+    padding: 10px !important;
+    width: 60%;
+
+}
+input::placeholder{
+    color: grey;
+    font-weight: bold;
+}
+.card1{
+    display: flex !important;
+    justify-content: space-between;
+    width: 100%;
+}
+.backToTop{
+    padding: 5px 10px 5px 10px !important;
+    position: fixed;
+    z-index: 2;
+    bottom: 0;
+    right: 0;
+    transition: 0.2s;
+
+}
+.backToTop:hover{
+    box-shadow: -1px 1px 21px 0px rgba(0,0,0,0.75) !important;
+    padding: 6px 11px 6px 11px !important;
+}
